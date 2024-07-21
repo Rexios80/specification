@@ -17,6 +17,7 @@ jobs:
           - java
           - rust
           - elixir
+          - dart
     steps:
       - name: Triggering build SDK - ${{ matrix.node }}
         run: |
